@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+form
+{
+    background-color:lightgray;
+    width: 75%;
+    border: 2px solid blueviolet;
+    margin: 50px;
+}
+label
+{
+    color: blue;
+    padding: 10px;
+}
+input[Type=text]
+{
+    height: 30px;
+    width: 180px;
+}
+button
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}

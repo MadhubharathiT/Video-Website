@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label>First Name:</label>
+        <input type="text" placeholder="Name" required><br><br>
+        <label> Last Name:</label>
+        <input type="text" placeholder="Father Name" required> <br><br>
+        <label> Gender:</label>
+        <input type="radio"> Male
+        <input type="radio"> Female
+        <input type="radio"> Transgender<br><br>
+        <label>Country:</label>
+        <input type="checkbox"> Indian
+        <input type="checkbox"> Foreignors<br><br>
+        <label> City:</label>
+        <select>
+            <option> Choose your city</option>
+            <option> Chennai </option>
+            <option> Madhurai </option>
+            <option> Tirunelveli</option>
+        </select><br><br>
+        <label> Address:</label>
+        <textarea  rows="3">
+
+        </textarea><br><br>
+        <kabel> Age:</kabel>
+        <input typr="number"><br><br>
+        <label> Password</label>
+        <input type="password" 
+        pattern="(?=.*\d)(?=.*[a-z]) (?=.*[A-Z]).{6,}"
+        tittle="Must contains at least one number and one uppercase and lowercase letter, and at least 6 or more character" required><br><br>
+        
+        <label> Email</label>
+        <input type="email" required><br><br>
+        <button> Login </button>
+    </form>
+</body>
+</html>
